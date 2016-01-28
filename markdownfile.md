@@ -1,7 +1,3 @@
-{% extends "default.html" %}
-
-{% block body %}
-
 here is a list:
 {% for i in range(0,2) %}
 - Here is thing number {{i}}
@@ -12,5 +8,3 @@ here is a list:
 
 
 <a href="{{ link('/subsite-one/somewhere#testreplacement-nothing-after-this-testtext') }}">another link</a>
-
-{% endblock %}
